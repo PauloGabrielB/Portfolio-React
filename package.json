@@ -1,6 +1,7 @@
 {
   "name": "portfolio-react",
   "private": true,
+  "homepage": "https://paulogabrielb.github.com/Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,9 +10,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/PauloGabrielB/Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
