@@ -1,5 +1,6 @@
-{"homepage": "https://paulogabrielb.github.com/Portfolio",
-  "name": "portfolio-react",
+{
+"homepage": "https://paulogabrielb.github.io/Portfolio/",
+  "name": "Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
