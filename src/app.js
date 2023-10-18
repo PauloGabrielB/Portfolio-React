@@ -5,19 +5,17 @@ import Hero from './components/Hero'
 import Main from './components/Main'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <Header/>
-      <Hero/>
-      <Main/>
-      <Projects/>
-      <Footer/>
-    </>
+    <Router>
+      <Header />
+      <Hero />
+      <Main />
+      <Projects />
+      <Footer />
+    </Router>
   )
 }
 
