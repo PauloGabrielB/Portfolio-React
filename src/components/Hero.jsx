@@ -13,7 +13,7 @@ export default function Hero() {
                  <a rel='noreferrer' href="https://github.com/PauloGabrielB" target="_blank"><button className="btn-icons">GitHub</button></a>
                  <a rel='noreferrer' href="https://www.linkedin.com/in/paulo-gabriel-931534242/" target="_blank"><button className="btn-icons">Linkedin</button></a>
             </div>
-            <h1 className="developer txt-grad">DEVELOPER</h1>
+            <h1 className="developer">DEVELOPER</h1>
             <p>Tenho 22 anos, sou desenvolvedor fullstack com 1 ano de experiência trabalhando como freelancer.</p>
                 <div className="rosto">
                 <img src={rosto}/>
